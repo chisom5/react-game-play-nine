@@ -1,0 +1,152 @@
+.container {
+    width: 70%;
+    margin: 30px auto;
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#button-frame {
+    width: 20%;
+    margin-top: 90px;
+    text-align: center;
+}
+
+#answer-frame,
+#star-frame {
+    width: 40%;
+}
+
+#star-frame .fa {
+    margin: 0.3em;
+    font-size: 1.7em;
+}
+
+.card__height {
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+#card-height {
+    height: 150px;
+}
+
+#number-frame .number,
+#answer-frame .card span {
+    display: inline-block;
+    margin: .5rem;
+    padding: .2rem;
+    background-color: #bbbbbb;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#number-frame .selected-true {
+    background-color: #e8e8e8;
+    color: #dddddd;
+    cursor: not-allowed;
+}
+
+#number-frame .used-true {
+    background-color: #aaddaa;
+    color: #99bb99;
+    cursor: not-allowed;
+}
+
+.modal {
+    z-Index: 1;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid #1ebeeb;
+    width: 50%;
+    height: 200px;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.modal-container #show {
+    display: block;
+}
+
+.modal-container #hide {
+    display: none;
+}
+
+
+/* MEDIA QUERY */
+
+
+/* Mini-laptop */
+
+@media (max-width:1024px) {
+    .container {
+        width: 80%;
+    }
+}
+
+
+/* Tablet */
+
+@media (max-width:768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .container {
+        width: 80%;
+    }
+    .card__height {
+        height: 230px;
+        margin-bottom: 20px;
+    }
+    #button-frame {
+        margin-top: 50px;
+    }
+    #number-frame .number {
+        padding: .1rem;
+        width: 35px;
+    }
+}
+
+
+/* mobile */
+
+@media (max-width:425px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    .container {
+        width: 100%;
+        margin: 50px auto;
+    }
+    .card__height {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    #number-frame .number {
+        font-size: 20px;
+        width: 30px;
+        padding: 0px;
+    }
+    #button-frame {
+        margin-top: 40px;
+    }
+    .btn-lg {
+        padding: .5rem 0.7em;
+    }
+    #star-frame .fa {
+        margin: 0.3em;
+        font-size: 1.3em;
+    }
+    .modal {
+        width: 80%;
+        height: 180px;
+    }
+}
