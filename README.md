@@ -1,57 +1,28 @@
-# Real-time Search App
+# React Game Play Nine
 
-This is an application that fetches data from a known json Api
-and render it in the app.
+This is a web game created with react javascript library,
+It is a math game, where number of stars are generated randomly and 
+we are to get the number either through summing up two numbers or a single,
+number...
 
-## Things Learnt
+## Instruction
 
-1. Lifecycle hooks
+To play this Game here are the rules:
 
-2. How to fetch Api in reactjs.
+* You select a number or multiple numbers that will sum up to
 
-3. Passing state to a child component via props.
+the number of stars we can see from the star card.
 
-> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
->
-> ## Available Scripts
->
-> In the project directory, you can run:
->
-> ### `npm start`
->
-> Runs the app in the development mode.<br>
-> Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
->
-> The page will reload if you make edits.<br>
-> You will also see any lint errors in the console.
->
-> ### `npm test`
->
-> Launches the test runner in the interactive watch mode.<br>
-> See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
->
-> ### `npm run build`
->
-> Builds the app for production to the `build` folder.<br>
-> It correctly bundles React in production mode and optimizes the build for the best performance.
->
-> The build is minified and the filenames include the hashes.<br>
-> Your app is ready to be deployed!
->
-> See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
->
-> ### `npm run eject`
->
-> **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
->
-> If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
->
-> Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but > they will point to the copied scripts so you can tweak them. At this point you’re on your own.
->
-> You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you > shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
->
-> ## Learn More
-> 
-> You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-> 
-> To learn React, check out the [React documentation](https://reactjs.org/).
+* Then click on the assignment button to verify the answer
+
+* Once the answer is accepted you click on the same button(equal to) to accept 
+
+and move on.
+
+* We can unselect our answer click by clicking on the answer card
+
+before verifying our answer.
+
+* There is a 5 time redraw or reshuffle button once we have exhault our possible
+
+guesses.
