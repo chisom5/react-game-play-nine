@@ -1,7 +1,8 @@
 # React Game Play Nine
 
-This is a web game created with react javascript library,
-It is a math game, where number of stars are generated randomly and 
+This is a web game created with react, It is inspired by samer buna.
+
+It is a math game, where number of stars are generated randomly and,
 we are to get the number either through summing up two numbers or a single,
 number...
 
